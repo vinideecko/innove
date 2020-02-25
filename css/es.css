@@ -71,3 +71,8 @@ a.botao:hover,input.botao:hover{
     background: orange;
     text-transform: lowercase;
 }
+ .form{
+    float: right;
+    background: right;
+
+}
