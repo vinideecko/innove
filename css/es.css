@@ -1,12 +1,17 @@
 body{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    border-bottom-color: green;
-    background-color: honeydew;
+    border-bottom-color: rgb(238, 12, 12);
+    background-color: rgb(255, 255, 255);
 }
 header h1{
 width: 300px;
-color: black;
+color: rgb(240, 9, 9);
+font-weight: 700;
+background: rgb(255, 255, 255);
 
+}
+header{
+    background: rgb(254, 255, 255);
 }
 .menu{
     text-align: left;
@@ -35,4 +40,34 @@ a.botao,input.botao{
     margin: 5px 0;
     display: inline-block;
     border: none;
+}
+ul.sem-marcador,ol.sem-marcador{
+    list-style: none;
+}
+ul.inline li{
+display: inline;
+
+}
+.col3{
+    background: midnightblue;
+    color: mintcream;
+    float: left;
+}
+.col3 ul li a{
+    color: mintcream;
+
+}
+a.botao,input.botao{
+    background: #1f3c58;
+    padding: 5px 10px;
+    border-radius: 3px;
+    color: #fff;
+    cursor: pointer;
+    margin: 5px 0;
+    display: inline-block;
+    border: none;
+}
+a.botao:hover,input.botao:hover{
+    background: orange;
+    text-transform: lowercase;
 }
