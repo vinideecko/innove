@@ -48,8 +48,9 @@ a:hover{
 .col8{
     width: 620px;
 }
-.col9{
+.col9 .sidebar{
     width: 700px;
+    ;
 }
 .col10{
     width: 780px;
