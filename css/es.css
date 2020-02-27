@@ -4,19 +4,18 @@ body{
     background-color: rgb(255, 255, 255);
 }
 
-header h1{
-width: 300px;
-color: rgb(240, 9, 9);
-font-weight: 700;
-background: rgb(255, 255, 255);
+header img{
+    width: 300px;
+}
 
 }
-header{
-    background: rgb(254, 255, 255);
+.header{
+    background: rgb(241, 20, 20);
 }
 .menu{
     text-align: left;
     text-transform: uppercase;
+    background:  rgb(241, 20, 20);
 }
 .menu li a{
     padding: 10px 20px;
