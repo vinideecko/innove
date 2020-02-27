@@ -1,25 +1,21 @@
 body{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     border-bottom-color: rgb(238, 12, 12);
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(243, 10, 10);
 }
 
 header img{
     width: 300px;
 }
-
-}
-.header{
-    background: rgb(241, 20, 20);
-}
 .menu{
     text-align: left;
     text-transform: uppercase;
-    background:  rgb(241, 20, 20);
+    
 }
 .menu li a{
     padding: 10px 20px;
     border-radius: 3px;
+    color: #fff;
 }
 .nav{
     margin-top: 25px; 
@@ -36,7 +32,7 @@ header img{
 
 }
 a.botao,input.botao{
-    background: #1f3c58;
+    background:#fff;
     padding: 5px 10px;
     border-radius: 3px;
     color: #fff;
@@ -47,14 +43,15 @@ a.botao,input.botao{
 }
 ul.sem-marcador,ol.sem-marcador{
     list-style: none;
+    
 }
 ul.inline li{
 display: inline;
 
 }
 .col3{
-    background: midnightblue;
-    color: mintcream;
+    background:rgba(25, 214, 57, 0);
+    color: rgb(252, 252, 252);
     float: left;
 }
 .col3 ul li a{
@@ -62,7 +59,7 @@ display: inline;
 
 }
 a.botao,input.botao{
-    background: #1f3c58;
+    background:rgb(0, 110, 255);
     padding: 5px 10px;
     border-radius: 3px;
     color: #fff;
@@ -90,3 +87,8 @@ a.botao:hover,input.botao:hover{
     .contato input.botao{
         width: auto;
   }
+  header img{
+    margin-right: 100px;
+  }
+  .conteudo-extra img{
+      margin-right: auto;  }
