@@ -1,21 +1,69 @@
 body{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    border-bottom-color: rgb(238, 12, 12);
-    background-color: rgb(243, 10, 10);
+    color: #0000;
 }
+a:link ,a:active ,a:visited{
+ color: royalblue;
+ text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+.coluna{
+	padding: 0 10px;
+	float: left;
 
-header img{
+}
+.col1{
+	width: 60px;
+}
+.col2{
+    width: 140px;
+}
+.col3{
+    width: 220px;
+}
+.col4{
     width: 300px;
 }
+.col5{
+    width: 380px;
+}
+.col6{
+    width: 460px;
+}
+.col7{
+    width: 540px;
+}
+.col8{
+    width: 620px;
+}
+.col9 .sidebar{
+    width: 700px;
+    ;
+}
+.col10{
+    width: 780px;
+}
+.col11{
+    width: 860px;
+}
+.col12{
+    width: 940px;
+}
+
+.col4 img{
+    width: 400px;
+
+}
 .menu{
-    text-align: left;
-    text-transform: uppercase;
-    
 }
 .menu li a{
     padding: 10px 20px;
     border-radius: 3px;
-    color: #fff;
+    color: rgb(9, 60, 128);
+    font-weight: 500;
+    margin-right: auto;
 }
 .nav{
     margin-top: 25px; 
@@ -92,3 +140,13 @@ a.botao:hover,input.botao:hover{
   }
   .conteudo-extra img{
       margin-right: auto;  }
+.col9{
+    background: rgb(252, 252, 252);
+    float: right;
+    width: 200px;
+}
+.col9 ul li a {
+
+    color: rgb(235, 25, 11);
+    text-decoration: none;
+}
